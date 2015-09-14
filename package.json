@@ -1,72 +1,72 @@
 {
-  "name": "game",
-  "version": "0.2.0",
-  "description": "BBMMORPG",
-  "main": "app.js",
-  "author": "ButuzGOL",
-  "homepage": "https://github.com/DragonLegend/game",
-  "keywords": [
-    "BBMMORPG",
-    "game"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DragonLegend/game.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DragonLegend/game/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "start": "DEBUG='game:*' babel-node --harmony_proxies --harmony_generators app.js",
-    "start-dev": "gulp start",
-    "lint": "gulp lint",
-    "_data": "DEBUG='game:*' babel-node --harmony data/index.js",
-    "data-bundles": "npm run _data -- bundles",
-    "data-init": "npm run _data -- init",
-    "postinstall": "npm run data-init && npm --prefix ./public install"
-  },
-  "engines": {
-    "node": ">=0.12"
-  },
-  "dependencies": {
-    "array-contains": "0.0.1",
-    "babel": "^5.6.14",
-    "co": "^4.5.4",
-    "co-bcrypt": "^1.0.0",
-    "debug": "^2.2.0",
-    "koa": "~0.21.0",
-    "koa-bodyparser": "^2.0.0",
-    "koa-compose": "^2.3.0",
-    "koa-compress": "^1.0.8",
-    "koa-cors": "0.0.16",
-    "koa-error": "^1.1.3",
-    "koa-logger": "^1.2.2",
-    "koa-oauth2orize": "^0.1.3",
-    "koa-passport": "^1.1.6",
-    "koa-response-time": "^1.0.2",
-    "koa-router": "^4.2.0",
-    "koa-session": "^3.2.0",
-    "koa-static": "^1.4.9",
-    "lodash": "^3.9.3",
-    "mongoose": "4.0.5",
-    "mongoose-deep-populate": "^1.1.0",
-    "mongoose-unique-validator": "^0.4.1",
-    "passport-http": "^0.2.2",
-    "passport-http-bearer": "^1.0.1",
-    "passport-oauth2-client-password": "^0.1.2",
-    "socket.io": "^1.3.5",
-    "uid": "0.0.2"
-  },
-  "devDependencies": {
-    "airbnb-style": "^2.0.0",
-    "babel-core": "^5.6.15",
-    "babel-eslint": "^3.1.20",
-    "commander": "^2.8.1",
-    "eslint": "^0.24.0",
-    "gulp": "^3.9.0",
-    "gulp-eslint": "^0.14.0",
-    "gulp-load-plugins": "^1.0.0-rc",
-    "gulp-nodemon": "^2.0.3"
-  }
+    "name": "game",
+    "version": "0.2.0",
+    "description": "BBMMORPG",
+    "main": "app.js",
+    "author": "ButuzGOL",
+    "homepage": "https://github.com/DragonLegend/game",
+    "keywords": [
+        "BBMMORPG",
+        "game"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DragonLegend/game.git"
+    },
+    "bugs": {
+        "url": "https://github.com/DragonLegend/game/issues"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\"",
+        "start": "DEBUG='game:*' babel-node --harmony_proxies --harmony_generators app.js",
+        "start-dev": "gulp start",
+        "lint": "gulp lint",
+        "_data": "DEBUG='game:*' babel-node --harmony data/index.js",
+        "data-bundles": "npm run _data -- bundles",
+        "data-init": "npm run _data -- init",
+        "postinstall": "npm run data-init && npm --prefix ./public install"
+    },
+    "engines": {
+        "node": ">=0.12"
+    },
+    "dependencies": {
+        "array-contains": "0.0.1",
+        "babel": "^5.6.14",
+        "co": "^4.5.4",
+        "co-bcrypt": "^1.0.0",
+        "debug": "^2.2.0",
+        "koa": "~0.21.0",
+        "koa-bodyparser": "^2.0.0",
+        "koa-compose": "^2.3.0",
+        "koa-compress": "^1.0.8",
+        "koa-cors": "0.0.16",
+        "koa-error": "^1.1.3",
+        "koa-logger": "^1.2.2",
+        "koa-oauth2orize": "^0.1.3",
+        "koa-passport": "^1.1.6",
+        "koa-response-time": "^1.0.2",
+        "koa-router": "^4.2.0",
+        "koa-session": "^3.2.0",
+        "koa-static": "^1.4.9",
+        "lodash": "^3.9.3",
+        "mongoose": "4.0.5",
+        "mongoose-deep-populate": "^1.1.0",
+        "mongoose-unique-validator": "^0.4.1",
+        "passport-http": "^0.2.2",
+        "passport-http-bearer": "^1.0.1",
+        "passport-oauth2-client-password": "^0.1.2",
+        "socket.io": "^1.3.5",
+        "uid": "0.0.2"
+    },
+    "devDependencies": {
+        "airbnb-style": "^2.0.0",
+        "babel-core": "^5.6.15",
+        "babel-eslint": "^3.1.20",
+        "commander": "^2.8.1",
+        "eslint": "^0.24.0",
+        "gulp": "^3.9.0",
+        "gulp-eslint": "^0.14.0",
+        "gulp-load-plugins": "^1.0.0-rc",
+        "gulp-nodemon": "^2.0.3"
+    }
 }
